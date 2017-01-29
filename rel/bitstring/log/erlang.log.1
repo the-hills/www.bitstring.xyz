@@ -1,0 +1,44 @@
+
+=====
+===== LOGGING STARTED Sat Jan 28 20:39:36 EST 2017
+=====
+Exec: /data/_personal_website/rel/bitstring/erts-8.2/bin/erlexec -boot /data/_personal_website/rel/bitstring/releases/0.0.1/bitstring -config /data/_personal_website/rel/bitstring/running-config/sys.config -boot_var ERTS_LIB_DIR /data/_personal_website/rel/bitstring/erts-8.2/../lib -env ERL_LIBS /data/_personal_website/rel/bitstring/lib -pa /data/_personal_website/rel/bitstring/lib/bitstring-0.0.1/consolidated -args_file /data/_personal_website/rel/bitstring/running-config/vm.args -mode embedded -user Elixir.IEx.CLI -extra --no-halt +iex -- console
+Root: /data/_personal_website/rel/bitstring
+/data/_personal_website/rel/bitstring
+Erlang/OTP 19 [erts-8.2] [source-fbd2db2] [64-bit] [smp:32:1] [async-threads:10] [hipe] [kernel-poll:false]
+
+warning: the VM is running with native name encoding of latin1 which may cause Elixir to malfunction as it expects utf8. Please ensure your locale is set to UTF-8 (which can be verified by running "locale" in your shell)
+[info] Application bitstring exited: Bitstring.start(:normal, []) returned an error: shutdown: failed to start child: Bitstring.Endpoint
+    ** (EXIT) shutdown: failed to start child: Phoenix.CodeReloader.Server
+        ** (EXIT) an exception was raised:
+            ** (UndefinedFunctionError) function Mix.Project.config/0 is undefined (module Mix.Project is not available)
+                Mix.Project.config()
+                (phoenix) lib/phoenix/code_reloader/server.ex:29: Phoenix.CodeReloader.Server.init/1
+                (stdlib) gen_server.erl:328: :gen_server.init_it/6
+                (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+{"Kernel pid terminated",application_controller,"{application_start_failure,bitstring,{{shutdown,{failed_to_start_child,'Elixir.Bitstring.Endpoint',{shutdown,{failed_to_start_child,'Elixir.Phoenix.CodeReloader.Server',{undef,[{'Elixir.Mix.Project',config,[],[]},{'Elixir.Phoenix.CodeReloader.Server',init,1,[{file,\"lib/phoenix/code_reloader/server.ex\"},{line,29}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,247}]}]}}}}},{'Elixir.Bitstring',start,[normal,[]]}}}"}
+Kernel pid terminated (application_controller) ({application_start_failure,bitstring,{{shutdown,{failed_to_start_child,'Elixir.Bitstring.Endpoint',{shutdown,{failed_to_start_child,'Elixir.Phoenix.Code
+
+Crash dump is being written to: erl_crash.dump...done
+
+=====
+===== LOGGING STARTED Sat Jan 28 20:40:47 EST 2017
+=====
+Exec: /data/_personal_website/rel/bitstring/erts-8.2/bin/erlexec -boot /data/_personal_website/rel/bitstring/releases/0.0.1/bitstring -config /data/_personal_website/rel/bitstring/running-config/sys.config -boot_var ERTS_LIB_DIR /data/_personal_website/rel/bitstring/erts-8.2/../lib -env ERL_LIBS /data/_personal_website/rel/bitstring/lib -pa /data/_personal_website/rel/bitstring/lib/bitstring-0.0.1/consolidated -args_file /data/_personal_website/rel/bitstring/running-config/vm.args -mode embedded -user Elixir.IEx.CLI -extra --no-halt +iex -- console
+Root: /data/_personal_website/rel/bitstring
+/data/_personal_website/rel/bitstring
+Erlang/OTP 19 [erts-8.2] [source-fbd2db2] [64-bit] [smp:32:1] [async-threads:10] [hipe] [kernel-poll:false]
+
+warning: the VM is running with native name encoding of latin1 which may cause Elixir to malfunction as it expects utf8. Please ensure your locale is set to UTF-8 (which can be verified by running "locale" in your shell)
+[info] Application bitstring exited: Bitstring.start(:normal, []) returned an error: shutdown: failed to start child: Bitstring.Endpoint
+    ** (EXIT) shutdown: failed to start child: Phoenix.CodeReloader.Server
+        ** (EXIT) an exception was raised:
+            ** (UndefinedFunctionError) function Mix.Project.config/0 is undefined (module Mix.Project is not available)
+                Mix.Project.config()
+                (phoenix) lib/phoenix/code_reloader/server.ex:29: Phoenix.CodeReloader.Server.init/1
+                (stdlib) gen_server.erl:328: :gen_server.init_it/6
+                (stdlib) proc_lib.erl:247: :proc_lib.init_p_do_apply/3
+{"Kernel pid terminated",application_controller,"{application_start_failure,bitstring,{{shutdown,{failed_to_start_child,'Elixir.Bitstring.Endpoint',{shutdown,{failed_to_start_child,'Elixir.Phoenix.CodeReloader.Server',{undef,[{'Elixir.Mix.Project',config,[],[]},{'Elixir.Phoenix.CodeReloader.Server',init,1,[{file,\"lib/phoenix/code_reloader/server.ex\"},{line,29}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,247}]}]}}}}},{'Elixir.Bitstring',start,[normal,[]]}}}"}
+Kernel pid terminated (application_controller) ({application_start_failure,bitstring,{{shutdown,{failed_to_start_child,'Elixir.Bitstring.Endpoint',{shutdown,{failed_to_start_child,'Elixir.Phoenix.Code
+
+Crash dump is being written to: erl_crash.dump...done
