@@ -1,8 +1,0 @@
-run_erl [6730] Sat Jan 28 20:40:47 2017
-Args before exec of shell:
-run_erl [6730] Sat Jan 28 20:40:47 2017
-argv[0] = sh
-run_erl [6730] Sat Jan 28 20:40:47 2017
-argv[1] = -c
-run_erl [6730] Sat Jan 28 20:40:47 2017
-argv[2] = exec "/data/_personal_website/rel/bitstring/bin/bitstring" "console"
