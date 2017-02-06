@@ -5,6 +5,7 @@ erl_crash.dump
 /deps
 /*.ez
 /_build/
+/rel
 
 # Generated on crash by the VM
 erl_crash.dump
