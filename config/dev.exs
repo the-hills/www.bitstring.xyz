@@ -38,6 +38,6 @@ config :bitstring, Bitstring.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
   password: "",
-  database: "bitstring_dev",
+  database: "bitstring",
   hostname: "localhost",
   pool_size: 10

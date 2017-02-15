@@ -39,8 +39,8 @@ defmodule Bitstring.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:exrm, "~> 1.0"},
-     {:ex_admin, github: "smpallen99/ex_admin"}]
+     {:exrm, "~> 1.0"}]
+     # {:ex_admin, github: "smpallen99/ex_admin"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
