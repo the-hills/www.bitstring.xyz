@@ -12,7 +12,7 @@ config :bitstring,
 # Configures the endpoint
 config :bitstring, Bitstring.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "W2exSxbKWWak6if4Uwx0NE2dmE2PhdsBU51+czKLC1oqIwktyDYpVyp4pm1i/yl5",
+  secret_key_base: "LosfBWCOrtOfNF5VyJb8x7+nhAlbeuIXHW0IQj5i4K1a6rcn2WPOQDgsInXak3sE",
   render_errors: [view: Bitstring.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Bitstring.PubSub,
            adapter: Phoenix.PubSub.PG2]
@@ -21,15 +21,6 @@ config :bitstring, Bitstring.Endpoint,
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
-
-# Configure ex_admin
-config :ex_admin,
-  repo: Bitstring.Repo,
-  module: Bitstring,
-  modules: [
-    Bitstring.ExAdmin.Dashboard,
-  ]
-
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

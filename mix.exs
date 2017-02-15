@@ -19,7 +19,7 @@ defmodule Bitstring.Mixfile do
   def application do
     [mod: {Bitstring, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :mariaex]]
   end
 
   # Specifies which paths to compile per environment.
@@ -34,13 +34,13 @@ defmodule Bitstring.Mixfile do
      {:phoenix_pubsub, "~> 1.0"},
      {:phoenix_ecto, "~> 3.0", override: true},
      {:ecto, "~> 1.1", override: true}, 
-     {:postgrex, ">= 0.0.0"},
+     {:mariaex, ">= 0.0.0"},
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
-     {:exrm, "~> 1.0"},
-     {:ex_admin, github: "smpallen99/ex_admin"}]
+     {:exrm, "~> 1.0"}]
+     # {:ex_admin, github: "smpallen99/ex_admin"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
