@@ -18,11 +18,12 @@ defmodule Bitstring.Router do
 
     get "/", PageController, :index
     get "/hello", HelloController, :index
-    get "/hello/:messenger", HelloController, :show
+    get "/mydouban", DoubanController, :index
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Bitstring do
-  #   pipe_through :api
-  # end
+  scope "/api", Bitstring do
+    pipe_through :api
+  end
 end
+
