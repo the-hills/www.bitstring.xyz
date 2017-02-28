@@ -1,23 +1,100 @@
-<style>
-.demo-card-event.mdl-card {
-      width: auto;
-      height: auto;
-      background: #00bcd4;
-      margin-top:168px;
-}
+<!DOCTYPE html>
+<html lang="en" class="">
 
-.demo-card-event > .mdl-card__title,
-.demo-card-event > .mdl-card__actions,
-.demo-card-event > .mdl-card__actions > .mdl-button {
-      color: #fff;
-}
-</style>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<div class="demo-card-event mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title mdl-card--expand">
-      <h3>
-            &nbsp Site under (re)construction. Coming soon: a new Bitstring.<br>
-      </h3>
+
+  <title>点点行行</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <link rel="icon" href="#">
+
+  <link rel="stylesheet" href="../../static/css/typing.css">
+
+  <style type="text/css">
+    .fancybox-margin {
+      margin-right: 0px;
+    }
+  </style>
+</head>
+
+
+<body class="home-body">
+
+  <div id="container" class="container">
+    <div class="home">
+      <div class="content">
+        <div class="profile">
+          <h1 class="nickname">点点行行</h1>
+          <div class="description">
+            <p></p>
+            <p>「走走停停，就像条狗。」</p>
+            <!--<p>The world is big zoo.</p>-->
+            <p></p>
+          </div>
+        </div>
+        <hr>
+        <ul class="links">
+
+          <li>
+            <a href="#">Blog</a>
+          </li>
+
+          <li>
+            <a href="#">GitHub</a>
+          </li>
+
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+        </ul>
+        <br>
+        
+        <!--
+        <ul class="links">
+          <li>
+            <a href="#">Discuss</a>
+          </li>
+
+          <li>
+            <a href="#">我的豆瓣电影</a>
+          </li>
+
+          <li>
+            <a href="#">简书</a>
+          </li>
+        </ul>
+        -->
+      </div>
+    </div>
+
   </div>
-</div>
+
+  <footer id="footer" class="home-footer footer">
+    <div id="copyright" class="copyright">
+      © 2017 Bitstring 
+
+
+      <a id="nav-lss-link" class="nav-icon" href="#" title="Flux RSS">RSS</a>
+
+
+    </div>
+  </footer>
+
+
+
+  <script src="../../static/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="../../static/css/jquery.fancybox.css">
+  <script src="../../static/js/jquery.fancybox.pack.js"></script>
+
+
+  <script src="../../static/js/typing.js"></script>
+
+
+</body>
+
+</html>
 
