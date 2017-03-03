@@ -9,20 +9,17 @@
 
     <title>点点行行</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+      <style type="text/css">
+          .fancybox-margin {
+          margin-right: 0px;
+          }
+      </style>
   </head>
 
-  <body>
-    <div class="container">
-
-
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-
-      <main role="main">
+  <body class="home-body">
+    <div id="container" class="container">
         <%= render @view_module, @view_template, assigns %>
-      </main>
-
-    </div> <!-- /container -->
+    </div>  <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>

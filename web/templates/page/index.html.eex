@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" class="">
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-  <title>点点行行</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <link rel="icon" href="#">
-
-  <link rel="stylesheet" href="../../static/css/typing.css">
-
-  <style type="text/css">
-    .fancybox-margin {
-      margin-right: 0px;
-    }
-  </style>
-</head>
-
-
-<body class="home-body">
-
-  <div id="container" class="container">
+    <div id="container" class="container">
     <div class="home">
       <div class="content">
         <div class="profile">
@@ -68,33 +44,11 @@
         -->
       </div>
     </div>
-
-  </div>
+</div>
 
   <footer id="footer" class="home-footer footer">
     <div id="copyright" class="copyright">
-      © 2017 Bitstring 
-
-
+      © 2017 bitstring 
       <a id="nav-lss-link" class="nav-icon" href="#" title="Flux RSS">RSS</a>
-
-
     </div>
   </footer>
-
-
-
-  <script src="../../static/js/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="../../static/css/jquery.fancybox.css">
-  <script src="../../static/js/jquery.fancybox.pack.js"></script>
-
-
-  <script src="../../static/js/typing.js"></script>
-
-
-</body>
-
-</html>
-
