@@ -28,20 +28,21 @@ defmodule Bitstring.Web do
 
   def controller do
     quote do
-      use Phoenix.Controller
+      use Phoenix.Controller, namespace: Bitstring.Web
 
       alias Bitstring.Repo
       import Ecto
       import Ecto.Query
 
-      import Bitstring.Router.Helpers
-      import Bitstring.Gettext
+      import Bitstring.Web.Router.Helpers
+      import Bitstring.Web.Gettext
     end
   end
 
   def view do
     quote do
-      use Phoenix.View, root: "web/templates"
+      use Phoenix.View, root: "lib/bitstring/web/templates",
+                        namespace: Bitstring.Web
 
       # Import convenience functions from controllers
       import Phoenix.Controller, only: [get_csrf_token: 0, get_flash: 2, view_module: 1]
@@ -49,9 +50,9 @@ defmodule Bitstring.Web do
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      import Bitstring.Router.Helpers
-      import Bitstring.ErrorHelpers
-      import Bitstring.Gettext
+      import Bitstring.Web.Router.Helpers
+      import Bitstring.Web.ErrorHelpers
+      import Bitstring.Web.Gettext
     end
   end
 
@@ -68,7 +69,7 @@ defmodule Bitstring.Web do
       alias Bitstring.Repo
       import Ecto
       import Ecto.Query
-      import Bitstring.Gettext
+      import Bitstring.Web.Gettext
     end
   end
 

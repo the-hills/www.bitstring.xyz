@@ -1,4 +1,4 @@
-defmodule Bitstring.Router do
+defmodule Bitstring.Web.Router do
   use Bitstring.Web, :router
 
   pipeline :browser do

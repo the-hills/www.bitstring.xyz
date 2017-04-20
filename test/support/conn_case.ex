@@ -25,10 +25,10 @@ defmodule Bitstring.ConnCase do
       import Ecto.Changeset
       import Ecto.Query
 
-      import Bitstring.Router.Helpers
+      import Bitstring.Web.Router.Helpers
 
       # The default endpoint for testing
-      @endpoint Bitstring.Endpoint
+      @endpoint Bitstring.Web.Endpoint
     end
   end
 

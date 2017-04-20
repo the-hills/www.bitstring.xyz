@@ -1,4 +1,4 @@
-defmodule Bitstring.PageControllerTest do
+defmodule Bitstring.Web.PageControllerTest do
   use Bitstring.ConnCase
 
   test "GET /", %{conn: conn} do

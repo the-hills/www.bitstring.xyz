@@ -1,4 +1,4 @@
-defmodule Bitstring.UserSocket do
+defmodule Bitstring.Web.UserSocket do
   use Phoenix.Socket
 
   ## Channels

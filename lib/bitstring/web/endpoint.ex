@@ -1,7 +1,7 @@
-defmodule Bitstring.Endpoint do
+defmodule Bitstring.Web.Endpoint do
   use Phoenix.Endpoint, otp_app: :bitstring
 
-  socket "/socket", Bitstring.UserSocket
+  socket "/socket", Bitstring.Web.UserSocket
 
   # Serve at "/" the static files from "priv/static" directory.
   #
@@ -38,5 +38,5 @@ defmodule Bitstring.Endpoint do
     key: "_bitstring_key",
     signing_salt: "n8RIhVgY"
 
-  plug Bitstring.Router
+  plug Bitstring.Web.Router
 end

@@ -27,7 +27,7 @@ defmodule Bitstring.ChannelCase do
 
 
       # The default endpoint for testing
-      @endpoint Bitstring.Endpoint
+      @endpoint Bitstring.Web.Endpoint
     end
   end
 
