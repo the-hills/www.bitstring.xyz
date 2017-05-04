@@ -26,4 +26,4 @@ erl_crash.dump
 # variables.
 /config/prod.secret.exs
 
-assets/node_modules
+assets/node_modules/
