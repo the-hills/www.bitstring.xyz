@@ -1,4 +1,4 @@
-defmodule Bitstring.PageController do
+defmodule Bitstring.Web.PageController do
   use Bitstring.Web, :controller
 
   def index(conn, _params) do

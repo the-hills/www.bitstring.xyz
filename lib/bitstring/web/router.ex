@@ -1,4 +1,4 @@
-defmodule Bitstring.Router do
+defmodule Bitstring.Web.Router do
   use Bitstring.Web, :router
 
   pipeline :browser do
@@ -13,7 +13,7 @@ defmodule Bitstring.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", Bitstring do
+  scope "/", Bitstring.Web do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
@@ -22,7 +22,7 @@ defmodule Bitstring.Router do
   end
 
   # Other scopes may use custom stacks.
-  scope "/api", Bitstring do
+  scope "/api", Bitstring.Web do
     pipe_through :api
   end
 end

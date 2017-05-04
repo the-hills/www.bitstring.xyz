@@ -1,4 +1,4 @@
-defmodule Bitstring.ErrorView do
+defmodule Bitstring.Web.ErrorView do
   use Bitstring.Web, :view
 
   def render("404.html", _assigns) do

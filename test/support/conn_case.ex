@@ -1,4 +1,4 @@
-defmodule Bitstring.ConnCase do
+defmodule Bitstring.Web.ConnCase do
   @moduledoc """
   This module defines the test case to be used by
   tests that require setting up a connection.
@@ -25,10 +25,10 @@ defmodule Bitstring.ConnCase do
       import Ecto.Changeset
       import Ecto.Query
 
-      import Bitstring.Router.Helpers
+      import Bitstring.Web.Router.Helpers
 
       # The default endpoint for testing
-      @endpoint Bitstring.Endpoint
+      @endpoint Bitstring.Web.Endpoint
     end
   end
 

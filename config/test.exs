@@ -2,7 +2,7 @@ use Mix.Config
 
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
-config :bitstring, Bitstring.Endpoint,
+config :bitstring, Bitstring.Web.Endpoint,
   http: [port: 4001],
   server: false
 
@@ -10,7 +10,7 @@ config :bitstring, Bitstring.Endpoint,
 config :logger, level: :warn
 
 # Configure your database
-config :bitstring, Bitstring.Repo,
+config :bitstring, Bitstring.Web.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
   password: "",
