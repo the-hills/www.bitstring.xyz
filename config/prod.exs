@@ -28,7 +28,7 @@ config :logger, level: :info
 # To get SSL working, you will need to add the `https` key
 # to the previous section and set your `:url` port to 443:
 #
-#     config :bitstring, Bitstring.Endpoint,
+#     config :bitstring, Bitstring.Web.Endpoint,
 #       ...
 #       url: [host: "example.com", port: 443],
 #       https: [port: 443,
@@ -42,7 +42,7 @@ config :logger, level: :info
 # We also recommend setting `force_ssl`, ensuring no data is
 # ever sent via http, always redirecting to https:
 #
-#     config :bitstring, Bitstring.Endpoint,
+#     config :bitstring, Bitstring.Web.Endpoint,
 #       force_ssl: [hsts: true]
 #
 # Check `Plug.SSL` for all available options in `force_ssl`.
@@ -57,7 +57,7 @@ config :logger, level: :info
 # Alternatively, you can configure exactly which server to
 # start per endpoint:
 #
-#     config :bitstring, Bitstring.Endpoint, server: true
+#     config :bitstring, Bitstring.Web.Endpoint, server: true
 #
 
 # Finally import the config/prod.secret.exs

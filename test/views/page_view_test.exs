@@ -1,3 +1,3 @@
 defmodule Bitstring.Web.PageViewTest do
-  use Bitstring.ConnCase, async: true
+  use Bitstring.Web.ConnCase, async: true
 end

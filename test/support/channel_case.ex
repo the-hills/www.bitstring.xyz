@@ -1,4 +1,4 @@
-defmodule Bitstring.ChannelCase do
+defmodule Bitstring.Web.ChannelCase do
   @moduledoc """
   This module defines the test case to be used by
   channel tests.

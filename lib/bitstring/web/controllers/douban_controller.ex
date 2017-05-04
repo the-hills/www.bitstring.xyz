@@ -1,4 +1,4 @@
-defmodule Bitstring.DoubanController do
+defmodule Bitstring.Web.DoubanController do
   use Bitstring.Web, :controller
 
   def index(conn, _params) do

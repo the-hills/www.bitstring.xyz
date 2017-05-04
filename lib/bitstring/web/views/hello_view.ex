@@ -1,3 +1,3 @@
-defmodule Bitstring.HelloView do
+defmodule Bitstring.Web.HelloView do
   use Bitstring.Web, :view
 end

@@ -10,7 +10,7 @@ config :bitstring, Bitstring.Web.Endpoint,
 config :logger, level: :warn
 
 # Configure your database
-config :bitstring, Bitstring.Repo,
+config :bitstring, Bitstring.Web.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
   password: "",

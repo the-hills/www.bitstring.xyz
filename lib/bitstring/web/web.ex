@@ -30,7 +30,7 @@ defmodule Bitstring.Web do
     quote do
       use Phoenix.Controller, namespace: Bitstring.Web
 
-      alias Bitstring.Repo
+      alias Bitstring.Web.Repo
       import Ecto
       import Ecto.Query
 
@@ -66,7 +66,7 @@ defmodule Bitstring.Web do
     quote do
       use Phoenix.Channel
 
-      alias Bitstring.Repo
+      alias Bitstring.Web.Repo
       import Ecto
       import Ecto.Query
       import Bitstring.Web.Gettext

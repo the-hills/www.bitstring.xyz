@@ -1,11 +1,11 @@
-defmodule Bitstring.Gettext do
+defmodule Bitstring.Web.Gettext do
   @moduledoc """
   A module providing Internationalization with a gettext-based API.
 
   By using [Gettext](https://hexdocs.pm/gettext),
   your module gains a set of macros for translations, for example:
 
-      import Bitstring.Gettext
+      import Bitstring.Web.Gettext
 
       # Simple translation
       gettext "Here is the string to translate"

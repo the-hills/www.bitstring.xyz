@@ -1,4 +1,4 @@
-defmodule Bitstring.ErrorHelpers do
+defmodule Bitstring.Web.ErrorHelpers do
   @moduledoc """
   Conveniences for translating and building error messages.
   """
@@ -32,9 +32,9 @@ defmodule Bitstring.ErrorHelpers do
     #     dgettext "errors", "is invalid"
     #
     if count = opts[:count] do
-      Gettext.dngettext(Bitstring.Gettext, "errors", msg, msg, count, opts)
+      Gettext.dngettext(Bitstring.Web.Gettext, "errors", msg, msg, count, opts)
     else
-      Gettext.dgettext(Bitstring.Gettext, "errors", msg, opts)
+      Gettext.dgettext(Bitstring.Web.Gettext, "errors", msg, opts)
     end
   end
 end

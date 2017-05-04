@@ -7,14 +7,14 @@ use Mix.Config
 
 # General application configuration
 config :bitstring,
-  ecto_repos: [Bitstring.Repo]
+  ecto_repos: [Bitstring.Web.Repo]
 
 # Configures the endpoint
 config :bitstring, Bitstring.Web.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "LosfBWCOrtOfNF5VyJb8x7+nhAlbeuIXHW0IQj5i4K1a6rcn2WPOQDgsInXak3sE",
-  render_errors: [view: Bitstring.ErrorView, accepts: ~w(html json)],
-  pubsub: [name: Bitstring.PubSub,
+  render_errors: [view: Bitstring.Web.ErrorView, accepts: ~w(html json)],
+  pubsub: [name: Bitstring.Web.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger

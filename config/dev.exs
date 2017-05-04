@@ -12,7 +12,7 @@ config :bitstring, Bitstring.Web.Endpoint,
   code_reloader: true,
   check_origin: false,
   watchers: [node: ["node_modules/brunch/bin/brunch", "watch", "--stdin",
-                    cd: Path.expand("../", __DIR__)]]
+                    cd: Path.expand("../assets", __DIR__)]]
 
 
 # Watch static and templates for browser reloading.
@@ -21,8 +21,8 @@ config :bitstring, Bitstring.Web.Endpoint,
     patterns: [
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
-      ~r{web/views/.*(ex)$},
-      ~r{web/templates/.*(eex)$}
+      ~r{lib/bitstring/web/views/.*(ex)$},
+      ~r{lib/bitstring/web/templates/.*(eex)$}
     ]
   ]
 
@@ -34,7 +34,7 @@ config :logger, :console, format: "[$level] $message\n"
 config :phoenix, :stacktrace_depth, 20
 
 # Configure your database
-config :bitstring, Bitstring.Repo,
+config :bitstring, Bitstring.Web.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
   password: "",
