@@ -27,3 +27,4 @@ erl_crash.dump
 /config/prod.secret.exs
 
 assets/node_modules/
+mix.lock

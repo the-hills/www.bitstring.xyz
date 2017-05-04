@@ -1,0 +1,23 @@
+<style>
+.demo-card-event.mdl-card {
+      width: auto;
+      height: auto;
+      background: #00bcd4;
+      margin-top:168px;
+}
+
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button {
+      color: #fff;
+}
+</style>
+
+<div class="demo-card-event mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+      <h3>
+         我自己的豆瓣观影报告。<br>
+      </h3>
+  </div>
+</div>
+

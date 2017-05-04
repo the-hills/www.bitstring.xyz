@@ -1,23 +1,53 @@
-<style>
-.demo-card-event.mdl-card {
-      width: auto;
-      height: auto;
-      background: #00bcd4;
-      margin-top:168px;
-}
+    <div id="container" class="container">
+    <div class="home">
+      <div class="content">
+        <div class="profile">
+          <h1 class="nickname">点点行行</h1>
+          <div class="description">
+            <p></p>
+            <p>「走走停停，就像条狗。」</p>
+            <!--<p>The world is big zoo.</p>-->
+            <p></p>
+          </div>
+        </div>
+        <hr>
+        <ul class="links">
 
-.demo-card-event > .mdl-card__title,
-.demo-card-event > .mdl-card__actions,
-.demo-card-event > .mdl-card__actions > .mdl-button {
-      color: #fff;
-}
-</style>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">GitHub</a>
+          </li>
 
-<div class="demo-card-event mdl-card mdl-shadow--2dp">
-  <div class="mdl-card__title mdl-card--expand">
-      <h3>
-         我自己的豆瓣观影报告。<br>
-      </h3>
-  </div>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+        </ul>
+        <br>
+        
+        <!--
+        <ul class="links">
+          <li>
+            <a href="#">Discuss</a>
+          </li>
+
+          <li>
+            <a href="#">我的豆瓣电影</a>
+          </li>
+
+          <li>
+            <a href="#">简书</a>
+          </li>
+        </ul>
+        -->
+      </div>
+    </div>
 </div>
 
+  <footer id="footer" class="home-footer footer">
+    <div id="copyright" class="copyright">
+      © 2017 bitstring 
+      <a id="nav-lss-link" class="nav-icon" href="#" title="Flux RSS">RSS</a>
+    </div>
+  </footer>
