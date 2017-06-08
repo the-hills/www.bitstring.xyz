@@ -1,15 +1,10 @@
-services:
-    - mysql
-before_script:
-    - mysql -c "create database bitstring;" -U wells
 language: elixir
 elixir:
-    - 1.3.4
+  - 1.4
 otp_release:
-    - 19 
+  - 19.3
 sudo: false
 script: mix test --include integration:true
 notification:
-    recipients:
-        - wellschuan@gmail.com
-
+  recipients:
+    - wellschuan@gmail.com
