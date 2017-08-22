@@ -1,35 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Hello Bitstring!</title>
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <title>labs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,      maximum-scale=1">
+    <meta name="description" content="yi hahah  eaten? ate  ersansi">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="labs">
+    <meta property="og:url" content="http://yoursite.com/labs/index.html">
+    <meta property="og:site_name" content="Hexo">
+    <meta property="og:description" content="yi hahah  eaten? ate  ersansi">
+    <meta property="og:updated_time" content="2017-08-22T10:25:14.000Z">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="labs">
+    <meta name="twitter:description" content="yi hahah  eaten? ate  ersansi">
+
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/ atom+xml">
+
+
+    <link rel="stylesheet" href="<%= static_path(@conn, "/favicon.ico") %>">
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/typing.css") %>">
   </head>
 
+
+
+
   <body>
-    <div class="container">
-      <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
-        </nav>
-        <span class="logo"></span>
-      </header>
 
-      <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
+    <div id="container" class="container">
+      <article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
+        <header id="header" class="header">
+          <nav id="sub-nav">
 
-    </div> <!-- /container -->
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+
+          </nav>
+        </header>
+
+        <hr/>
+        <div class="article-inner">
+
+
+          <header class="article-header">
+
+
+            <h1 class="article-title" itemprop="name">
+              labs
+            </h1>
+
+
+          </header>
+
+          <div class="article-entry typo" itemprop="articleBody">
+
+            <h1 id="yi"><a href="#yi" class="headerlink" title="yi"></a>yi</h1><blockquote>
+              <p>hahah</p>
+            </blockquote>
+            <p><strong>eaten?</strong></p>
+            <p><em>ate</em></p>
+            <hr>
+            <h1 id="er"><a href="#er" class="headerlink" title="er"></a>er</h1><h1 id="san"><a href="#san" class="headerlink" title="san"></a>san</h1><h1 id="si"><a href="#si" class="headerlink" title="si"></a>si</h1>
+
+          </div>
+          <footer class="article-footer">
+            <ul class="article-meta">
+              <li>
+                <span class="label">Published Date:</span>
+                <a href="/labs/index.html" class="article-date">
+                  <time datetime="2017-08-22T10:23:43.000Z" itemprop="datePublished">2017-08-22</time>
+                </a>
+
+              </li>
+
+
+              <hr/>
+            </ul>
+          </footer>
+        </div>
+
+
+
+
+      </article>
+
+
+
+
+    </div>
+    </div>
+
+
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
