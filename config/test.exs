@@ -13,7 +13,7 @@ config :logger, level: :warn
 config :bitstring, Bitstring.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
-  password: "",
+  password: "123",
   database: "bitstring_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
